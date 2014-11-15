@@ -1,0 +1,45 @@
+body{
+	font-family: "Times New Roman", Times, "微軟正黑體", "Microsoft JhengHei", "新細明體", "PMingLiU", "細明體", "MingLiU", "標楷體", "DFKai-sb", sans-serif;
+}
+
+
+section {
+	width: 100%;
+	display: table;
+	max-width: none;
+	
+	height: 100vh;
+	&#index{
+		background-color: #373B44;
+	}
+	&#news{
+		background-color: #F5F5DC;
+
+	}
+	&#introduction{
+		background: url(http://upload.wikimedia.org/wikipedia/commons/2/2b/NTHU_Library_2012.JPG) no-repeat center center fixed;
+		background-size: cover;
+		z-index: 0;
+		position: relative;
+	}
+	&#group-sponsor{
+		background-color: #F5F5DC;
+	}
+}
+.page{
+	@media only screen and (min-width: 64.063em){
+		padding-top:75px;
+		padding-bottom:75px;
+	}
+	@media only screen and (max-width: 64.063em){
+		padding-top:50px;
+		padding-bottom:50px;
+	}
+}
+footer{
+
+	background-color: black;
+	font-size: 1.2em;
+	color:#EEE;
+	line-height: 2em;
+}
