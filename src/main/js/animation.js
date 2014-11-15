@@ -1,8 +1,7 @@
 $(window).load(function () {
 	$(".loader").fadeOut(1000, function () {
-		$("header, section").css('display', 'table');
-		$("footer").show();
-		//$("").fadeIn(1000);
+		$("section").css('display', 'table');
+		$("header, header section, footer").css('display', 'block');
 		$.each($(".hex-group .hex").sort(function () {
 			return Math.random() * 10 > 5 ? 1 : -1;
 		}), function (index, element) {
