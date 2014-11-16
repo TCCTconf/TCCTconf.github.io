@@ -32,8 +32,17 @@
 			max-width:100%;
 			max-height:100%;
 		}
-		#first{
-			font-weight: 800;
+		span{
+			font-family: 'Lobster', cursive;
+			&#fifth{
+				font-size:@font-size;
+			}
+			&#first, &#seventh{
+				font-size:@font-size+10;
+				position: relative;
+				top: 20%;
+				transform: translateY(-50%);
+			}
 		}
 			
 	}
@@ -49,6 +58,7 @@
 			@hex-width: 230px;
 			@hex-height: @hex-width / 1.73;
 			@hex-gap: 45px;
+			@font-size:35px;
 			.hexagon;
 		}
 		
@@ -64,6 +74,7 @@
 			@hex-width: 190px;
 			@hex-height: @hex-width / 1.73;
 			@hex-gap: 35px;
+			@font-size:30px;
 			.hexagon;
 		}
 	}
@@ -77,6 +88,7 @@
 			@hex-width: 140px;
 			@hex-height: @hex-width / 1.73;
 			@hex-gap: 30px;
+			@font-size:25px;
 			.hexagon;
 		}
 	}
@@ -91,6 +103,7 @@
 			@hex-width: 120px;
 			@hex-height: @hex-width / 1.73;
 			@hex-gap: 25px;
+			@font-size:20px;
 			.hexagon;
 		}
 	}
@@ -105,6 +118,7 @@
 			@hex-width: 100px;
 			@hex-height: @hex-width / 1.73;
 			@hex-gap: 20px;
+			@font-size:20px;
 			.hexagon;
 		}
 	}
@@ -118,6 +132,7 @@
 			@hex-width: 88px;
 			@hex-height: @hex-width / 1.73;
 			@hex-gap: 17px;
+			@font-size:15px;
 			.hexagon;
 		}
 	}
