@@ -1,14 +1,14 @@
-$(document).ready(function () {
+/*$(document).ready(function () {
 	$.each($(".hex-group .hex").sort(function () {
 		return Math.random() * 10 > 5 ? 1 : -1;
 	}), function (index, element) {
 		var opacity = parseInt($(element).css('opacity'));
 		setTimeout(function () {
 			var tid = setInterval(function () {
-				opacity += 0.01;
+				opacity += 0.02;
 				$(element).css('opacity', opacity);
 				if (opacity > 1) clearInterval(tid);
-			}, 10);
+			}, 50);
 		}, index * 500);
 
 	});
@@ -20,4 +20,4 @@ $(document).ready(function () {
 		}, 500);
 		return false;
 	});
-});
+});*/
