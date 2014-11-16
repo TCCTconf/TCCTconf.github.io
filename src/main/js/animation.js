@@ -9,7 +9,7 @@ $(document).ready(function () {
 				$(element).css('opacity', opacity);
 				if (opacity > 1) clearInterval(tid);
 			}, 50);
-		}, index * 500);
+		}, index * 1000);
 
 	});
 
