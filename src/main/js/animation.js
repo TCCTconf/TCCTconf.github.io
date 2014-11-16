@@ -1,4 +1,4 @@
-/*$(document).ready(function () {
+$(document).ready(function () {
 	$.each($(".hex-group .hex").sort(function () {
 		return Math.random() * 10 > 5 ? 1 : -1;
 	}), function (index, element) {
@@ -20,4 +20,4 @@
 		}, 500);
 		return false;
 	});
-});*/
+});

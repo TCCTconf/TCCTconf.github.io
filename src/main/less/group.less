@@ -1,58 +1,64 @@
-#group{
-	.back(){
-		background-repeat: no-repeat; background-size: cover;
+#group {
+	.back() {
+		background-repeat: no-repeat;
+		background-size: cover;
 	}
-	.panel{
-		height:12em;
+	.panel {
+		@media only screen and (min-width: 64.063em) {
+			height: 11em;
+		}
+		@media only screen and (max-width: 64.063em) {
+			height: 15em;
+		}
 	}
 	.circular {
 		width: 80%;
-		height:0;
+		height: 0;
 		padding-bottom: 80%;
 		box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 		border-radius: 50%;
-		background-position:50% 50%;
+		background-position: 50% 50%;
 	}
-	#frog{
+	#frog {
 		background: url(../../pic/oberon.png);
 		.back;
 	}
-	#fishball{
+	#fishball {
 		background: url(../../pic/fishball.png);
 		.back;
 	}
-	#bekket{
+	#bekket {
 		background: url(../../pic/bekket.jpg);
 		.back;
 	}
-	#ray{
+	#ray {
 		background: url(../../pic/ray.jpg);
 		.back;
 	}
-	#ham{
+	#ham {
 		background: url(../../pic/hamburger.jpg);
 		.back;
 	}
-	#majer{
+	#majer {
 		background: url(../../pic/majer.jpg);
 		.back;
 	}
-	#joshua{
+	#joshua {
 		background: url(../../pic/joshua.jpg);
 		.back;
 	}
 }
-#sponsor{
-	.panel{
-		max-height:20em;
+#sponsor {
+	.panel {
+		max-height: 20em;
 	}
 	.circular {
 		width: 80%;
-		height:0;
+		height: 0;
 		padding-bottom: 80%;
+		margin: auto;
 		box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 		border-radius: 50%;
-		background-position:50% 50%;
-
+		background-position: 50% 50%;
 	}
 }
