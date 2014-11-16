@@ -7,7 +7,6 @@
 	position: relative;
 	margin-top: @hex-gap;
 	margin-bottom: @hex-gap;
-	opacity: 0;
 	.hex-1{
 		width: @hex-width;
 		height: @hex-height;
@@ -65,7 +64,7 @@
 		}
 	}
 }
-@media only screen and (max-width: 40.063em){
+@media only screen and (min-width: 25.063em) and (max-width: 40.063em){
 	.hex-group{
 		display: table;
 		margin: 0 auto;
@@ -74,6 +73,34 @@
 			@hex-width: 140px;
 			@hex-height: @hex-width / 1.73;
 			@hex-gap: 30px;
+			.hexagon;
+		}
+	}
+}
+
+@media only screen and (min-width: 25.063em) and (max-width: 30.063em){
+	.hex-group{
+		display: table;
+		margin: 0 auto;
+		max-width: 32em;
+		.hex{
+			@hex-width: 120px;
+			@hex-height: @hex-width / 1.73;
+			@hex-gap: 25px;
+			.hexagon;
+		}
+	}
+}
+
+@media only screen and (max-width: 25.063em){
+	.hex-group{
+		display: table;
+		margin: 0 auto;
+		max-width: 32em;
+		.hex{
+			@hex-width: 100px;
+			@hex-height: @hex-width / 1.73;
+			@hex-gap: 20px;
 			.hexagon;
 		}
 	}
