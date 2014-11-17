@@ -11,11 +11,9 @@
 	<link rel="stylesheet" href="src/foundation/css/normalize.css">
 	<link rel="stylesheet" href="src/foundation/css/foundation.css">
 	<link rel="stylesheet" href="src/foundation/foundation-icons/foundation-icons.css">
+	<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet/less" type="text/css" href="src/main/less/body.less" />
-	<link rel="stylesheet/less" type="text/css" href="src/main/less/hexagon.less" />
-	<link rel="stylesheet/less" type="text/css" href="src/main/less/news.less" />
-	<link rel="stylesheet/less" type="text/css" href="src/main/less/group.less" />
-	<link rel="stylesheet/less" type="text/css" href="src/main/less/intro.less" />
+	<link rel="stylesheet/less" type="text/css" href="src/main/less/help.less" />
 	<script src="src/foundation/js/vendor/modernizr.js"></script>
 </head>
 
@@ -36,7 +34,7 @@
 					<!-- Right Nav Section -->
 					<ul class="right">
 						<li>
-							<a href="#">徵求議程</a>
+							<a href="#article">徵求議程</a>
 						</li>
 						<li>
 							<a href="#">徵求工人</a>
@@ -44,16 +42,16 @@
 					</ul>
 					<ul class="left">
 						<li>
-							<a href="./index.html">最新消息</a>
+							<a href="./index.html#news">最新消息</a>
 						</li>
 						<li>
-							<a href="./index.html">活動介紹</a>
+							<a href="./index.html#introduction">活動介紹</a>
 						</li>
 						<li>
-							<a href="./index.html">團隊介紹</a>
+							<a href="./index.html#group">團隊介紹</a>
 						</li>
 						<li>
-							<a href="./index.html">贊助單位</a>
+							<a href="./index.html#sponsor">贊助單位</a>
 						</li>
 
 					</ul>
@@ -61,10 +59,76 @@
 			</nav>
 		</div>
 	</header>
-	<section>
-	
-	
+	<section id="index2">
+		<div class="row page help">
+			<div class="small-12 text-center columns"><br><br><br><br><br><br>
+				<h1>2015 TCCTconf</h1>
+				<h1>我們需要你的協助</h1>
+				<h3>看看能做些什麼</h3><br><br>
+				<div class="row">
+					<div class="small-3 small-offset-3 columns"><a href="#article" class="button round large">我要投稿</a></div>
+					<div class="small-3 end columns"><a href="#" class="button round large">成為工人</a></div>
+				</div>
+			</div>
+			
+		</div>
+
 	</section>
+	<section id="article">
+		<div class="row page">
+			<div class="small-12 text-justify columns">
+				<h3>徵求議程 (Call for Talks)</h3>
+				<h4>議程說明</h4>
+				<h5>講者將有50分鐘的時間</h5>
+				<h4>議程主題</h4>
+				<h5>
+					這次conf的主題著重在網頁技術的探討，下列為講題方向：
+				</h5>
+				<ul>
+					<li>前、後端程式設計</li>
+					<li>開源專案介紹</li>
+					<li>網站UI / UX 設計</li>
+					<li>主機建置、維護</li>
+					<li>網路安全</li>
+					<li>資訊法律</li>
+				</ul>
+				<h5>大致方向如上，但並不一定僅限於上列項目，若您覺得也有其它跟 Web 開發、設計有關的有趣主題也非常歡迎。 </h5>
+				<h4>投稿方式</h4>
+				<h5>信件主旨為「TCCT conf 2015 議程投稿」，並請附上下列資料：</h5>
+				<h6>必要資訊</h6>
+				<ul>
+					<li>姓名或暱稱</li>
+					<li>開源專案介紹</li>
+					<li>50 字內簡介</li>
+					<li>主題</li>
+					<li>簡介</li>
+				</ul>
+				<h6>可附上資訊</h6>
+				<ul>
+					<li>議程用簡報草稿</li>
+					<li>預錄簡短議程的影片</li>
+					<li>議程中的程式碼</li>
+					<li>任何與議程相關的加分項目</li>
+				</ul>
+				<h4>請來信至 tcctconf@gmail.com ，歡迎來與大家一起同樂。 </h4>
+
+				<h4>截稿日期為 12/20 (星期六)，並將會在 12/21 (星期日)公布錄取名單。 </h4>
+
+				<h4>(如您的講題被 TCCT conf 2015 採用，我們會贈送您 VIP 票一張)</h4>
+			</div>
+			
+		</div>
+
+	</section>
+
+	<script src="src/foundation/js/vendor/jquery.js"></script>
+	<script src="src/foundation/js/foundation.min.js"></script>
+	<script src="src/foundation/js/foundation/foundation.topbar.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/less.js/1.3.0/less-1.3.0.min.js"></script>
+	<script>
+		$(document).foundation();
+	</script>
+	<script src="src/main/js/animation.js"></script>
 </body>
 
 </html>

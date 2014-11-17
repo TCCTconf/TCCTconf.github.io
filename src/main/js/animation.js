@@ -13,7 +13,7 @@ $(document).ready(function () {
 
 	});
 
-	$('header a, section#index a').click(function () {
+	$('header a, section#index a, section#index2 a.button').click(function () {
 		console.log("test");
 		$('html, body').animate({
 			scrollTop: $($(this).attr('href')).offset().top
